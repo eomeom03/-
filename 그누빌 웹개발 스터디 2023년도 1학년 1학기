@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <title>그누빌</title>
+    </head>
+    <body>
+        <h1 title="2023학년도 1학년 1학기 연습 사이트입니다.">그누빌 웹개발 연습 사이트</h1>
+        <hr>
+        <h3 title="2023.03.16">웹개발 1주차 연습</h3>
+        <pre>HTML5에서 HTML페이지는 !DOCTPE선언과 주석문, 그리고 헤드 부분과 바디 부분으로 구성된다.
+수평선 긋기 : &lt;hr&gt; / 새로운 줄로 넘어가기 : &lt;hr&gt; / <strong>강조</strong> : &lt;strong&gt; / <small>한 단계 작은 문자</small> : &lt;small&gt; 
+<del>삭제</del> : &lt;del&gt; / <mark>하이라이팅</mark> : &lt;mark&gt; 
+이미지 삽입 : &lt;img src="이미지 파일의 URL"
+                   alt="문자열"
+                   width="이미지 폭"
+                   heigh="이미지 높이"&gt;</pre>
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20150828_202%2Fpcrht_1440769838886NrKtI_JPEG%2FScreenshot_2015-08-28-18-02-14_edit.jpg&type=a340"
+             width="150"
+             height="150">
+        <p>라면 끓이는 순서 나열</p>
+            <ol type="a">
+                <li>물을 끓인다</li>
+                <li>라면과 스프를 넣는다</li>
+                <li>파를 썰어 넣는다</li>
+                <li>5분 후 먹는다</li>
+            </ol>
+        <dl>
+                <dt><strong>한국외국어대학교 학과 종류</strong></dt>
+                     <dd><ul>
+                        <li>인문대</li>
+                        <li>통번역대</li>
+                        <li>동유럽대</li>
+                        <li>국제지역대</li>
+                        <li>경상대</li>
+                        <li>자연과학대</li>
+                        <li>공과대</li>
+                    </ul>
+                </ul></dd>
+        </dl>
+        
+
+        
