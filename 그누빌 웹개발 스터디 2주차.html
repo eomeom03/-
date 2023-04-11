@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>그누빌</title>
+    </head>
+    <body>
+        <header>
+            <h1>한국외대 글로벌캠퍼스<h1>
+        </header>
+            <header>
+            <nav>
+                <h2>공과대학</h2>
+                <ul>
+                    <li><a href="https://computer.hufs.ac.kr/ces/index.do">컴퓨터공학</a></li>
+                    <li><a href="https://ee.hufs.ac.kr/ee/index.do">전자공학</a></li>
+                    <li><a href="https://ice.hufs.ac.kr/ice/index.do">정보통신공학</a></li>
+            </nav>
+            <h3>details와 summary 태그</h3>
+            <hr>
+                <details>
+                    <summary>클릭</summary>
+                     <p>안녕</p>
+                 </details>
+            <p> 오늘 <mark>그누빌 스터디 백년관 304호</mark><br>
+                시간은 <time>18:00</time><br>
+                난이도 <meter value="30" max="100"></meter><br> <!--<meter> : 주어진 범위나 %의 데이터 양 표시--> 
+                학습량 <progress value="70" max="100"></progress> <!--<meter> : 작업의 진행 정도 표시--> 
+            </p>
+            <h3>로그인 폼</h3>
+            <hr>
+            <from name="fo" method="get">
+            사용자 ID : <input type="text" size="15" value=""><br>
+            비밀 번호 : <input type="password" size="15" value="" maxlength="10">
+                       <input type="submit" value="완료">
+            </from>
+            <h3>택스트 입력과 데이터 목록을 가진 텍스트 입력창</h3>
+            <hr>
+            <input type="text" value="문자를 입력하세요!"><br>
+            학과 : <input type="text" list="major">
+            <datalist id="major">
+                <option value="컴퓨터공학과">
+                <option value="전자공학과"></option>
+            </datalist>
+
+    </body>
+</html>
+
+
